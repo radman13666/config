@@ -5,3 +5,8 @@ include /usr/share/nano/python.nanorc
 include /usr/share/nano/html.nanorc
 include /usr/share/nano/xml.nanorc
 include /usr/share/nano/php.nanorc
+
+set tabsize 2
+set autoindent
+set nowrap
+

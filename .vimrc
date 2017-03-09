@@ -1,3 +1,4 @@
+:set term=screen-256color
 :set autoindent
 :set tabstop=2
 :set shiftwidth=2
