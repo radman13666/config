@@ -103,6 +103,10 @@ source $ZSH_CUSTOM/.zsh_aliases
 JAVA_HOME="$HOME/Programs/jdk1.8.0_111/bin"
 export PATH=$JAVA_HOME:$PATH
 
+#Gradle home directory
+GRADLE_HOME="$HOME/Programs/gradle-3.4/bin"
+export PATH=$GRADLE_HOME:$PATH
+
 #custom prompt for zsh
 #export PS1="%B[%D{%f/%m/%y} %T] [%3/]%b
 #%# "
