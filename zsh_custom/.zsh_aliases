@@ -1,0 +1,24 @@
+#tmux aliases
+alias tmux='tmux -2'
+alias ta='tmux attach -t'
+alias tnew='tmux new -s'
+alias tl='tmux ls'
+alias tkill='tmux kill-session -t'
+
+#conenience aliases for editing config files
+alias ev='vim ~/config/.vimrc'
+alias et='vim ~/config/.tmux.conf'
+alias ez='vim ~/config/.zshrc'
+
+#others
+alias ls='ls -p'
+alias la='ls -Ap'
+alias lal='ls -Alhpt'
+alias rm='rm -i'
+alias rrm='rm -r'
+alias tar='tar xf'
+alias targ='tar xzf'
+alias off='sudo shutdown --poweroff +0'
+alias rbt='sudo shutdown --reboot +0'
+
+
