@@ -20,5 +20,5 @@ alias tar='tar xf'
 alias targ='tar xzf'
 alias off='sudo shutdown --poweroff +0'
 alias rbt='sudo shutdown --reboot +0'
-
+alias tree='tree -at --filelimit 30 '
 

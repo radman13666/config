@@ -1,0 +1,32 @@
+apply plugin: 'java'
+
+version = 1.0
+buildDir = 'out'
+libsDirName = 'dist'
+
+sourceSets {
+  main {
+    resources.srcDirs = ['src/main/res']
+    output.classesDir = "$project.buildDir/$name/class"
+    output.resourcesDir = "$project.buildDir/$name/res"
+  }
+  test {
+    resources.srcDirs = ['src/test/res']
+    output.classesDir = "$project.buildDir/$name/class"
+    output.resourcesDir = "$project.buildDir/$name/res"
+  }
+}
+
+jar {
+  manifest {
+    attributes("Main-Class": "com.radindustries.radman.App")
+  }
+}
+
+//task pack(type: Jar) {
+//  //classifer --> cli, gui
+//  description 'Makes a project .jar file, with an interface description'
+//  classifier = 'cli'
+//}
+
+//pack.mustRunAfter jar
