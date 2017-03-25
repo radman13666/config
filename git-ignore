@@ -2,4 +2,5 @@ build.gradle
 out/
 .gradle/
 *.txt
+.gitignore
 
