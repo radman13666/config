@@ -100,12 +100,28 @@ export VISUAL="$EDITOR"
 source $ZSH_CUSTOM/.zsh_aliases
 
 #Java home directory
-JAVA_HOME="$HOME/Programs/jdk1.8.0_111/bin"
+JAVA_HOME="$HOME/Programs/jdk1.8.0_121/bin"
 export PATH=$JAVA_HOME:$PATH
 
 #Gradle home directory
 GRADLE_HOME="$HOME/Programs/gradle-3.4/bin"
 export PATH=$GRADLE_HOME:$PATH
+
+#JUnit home directory
+JUNIT_HOME="$HOME/Programs/junit"
+export CLASSPATH="$JUNIT_HOME/junit-4.12.jar:$CLASSPATH"
+
+#IDEA home directory
+#IDEA_HOME="$HOME/Programs/idea-IC-163.9166.29/bin"
+#export PATH=$IDEA_HOME:$PATH
+
+#NETBEANS home directory
+NETBEANS_HOME="$HOME/Programs/netbeans-8.2/bin"
+export PATH=$NETBEANS_HOME:$PATH
+
+#PYCHARM home directory
+#PYCHARM_HOME="$HOME/Programs/pycharm-community-2016.3.1/bin"
+#export PATH=$PYCHARM_HOME:$PATH
 
 #custom prompt for zsh
 #export PS1="%B[%D{%f/%m/%y} %T] [%3/]%b

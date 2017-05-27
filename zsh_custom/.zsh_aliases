@@ -5,20 +5,22 @@ alias tnew='tmux new -s'
 alias tl='tmux ls'
 alias tkill='tmux kill-session -t'
 
-#conenience aliases for editing config files
+#convenience aliases for editing config files
 alias ev='vim ~/config/.vimrc'
 alias et='vim ~/config/.tmux.conf'
 alias ez='vim ~/config/.zshrc'
+alias ezz='vim ~/config/zsh_custom/.zsh_aliases'
 
 #others
-alias ls='ls -p'
-alias la='ls -Ap'
-alias lal='ls -Alhpt'
-#alias rm='rm -i'
+alias ls='ls -pF'
+alias la='ls -ApF'
+alias lal='ls -AlhptF'
+#alias rmd='rm -rf'
 alias rrm='rm -r'
 alias tar='tar xf'
 alias targ='tar xzf'
 alias off='sudo shutdown --poweroff +0'
 alias rbt='sudo shutdown --reboot +0'
 alias tree='tree -at --filelimit 30 '
-
+alias pst='ps -ejH'
+alias ps='ps -e'
