@@ -119,6 +119,9 @@ export CLASSPATH="$JUNIT_HOME/junit-4.12.jar:$CLASSPATH"
 NETBEANS_HOME="$HOME/Programs/netbeans-8.2/bin"
 export PATH=$NETBEANS_HOME:$PATH
 
+#adding path for /usr/sbin
+export PATH=$PATH:'/usr/sbin'
+
 #PYCHARM home directory
 #PYCHARM_HOME="$HOME/Programs/pycharm-community-2016.3.1/bin"
 #export PATH=$PYCHARM_HOME:$PATH
